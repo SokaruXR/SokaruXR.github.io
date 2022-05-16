@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Among Us</title>  
+<link href="AmongUsWeb.css" rel="stylesheet" type="text/css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head> 
+<body>
+<div id="main">
+<div id="header">
+
+</div>
+<div id="nav">
+    <ul>
+    <li><a href="Index.html">Home</a>
+    <li><a href="https://www.innersloth.com/games/among-us/">Official Website</a>
+    </li>
+
+    </ul>
+    </div>
+<div id="section">
+<!-- This is the section that contains content and sidebar -->
+<!-- This is the main content area -->
+<div id="content">
+<h2>What is Among Us?</h2>
+<div id="pic"><img src="AmongUslogo.webp" /></div>
+<p class="description">Among Us is a social deception game which can be downloaded for free on Android and iOs, or to purchase for use on a PC. It can be played with a group of between 4 and 10 players either online by joining a game with strangers, or players can host or join games with friends.</p>
+<br>
+<h3>Game Trailer</h3>
+<video width="1020" height="640" controls>
+    <source src="AmongUsTrailer.mp4" type="video/mp4">
+    </video>
+    
+
+    </div>
+<!-- This is the sidebar -->
+<div id="side">
+<h>Have a comment on the website?</h>
+<h>leave a feedback!</h>
+<br>
+<textarea id="comment">Comment Here :D</textarea>
+<br>
+<input type="radio" name="rad2" onclick="displayStatus(1);">1
+            <input type="radio" name="rad2" onclick="displayStatus(2);">2
+            <input type="radio" name="rad2" onclick="displayStatus(3);">3
+            <input type="radio" name="rad2" onclick="displayStatus(4);">4
+            <input type="radio" name="rad2" onclick="displayStatus(5);">5
+<p id="container">Rating</p>
+<button type=button id="submit";>Submit</button>
+<p id="container2"></p>
+
+<p class="description">Quick Navigate</p>
+    <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+        <option value="Index.html">Home</option>
+        <option value="MobileLegendsWeb.html">Mobile Legends</option>
+        <option value="FallGuysWeb.html">Fall Guys</option>
+        <option value="GenshinWeb.html">Genshin Impact</option>
+        <option value="LifeAfterWeb.html">LifeAfter</option>
+        <option value="SoulKnightWeb.html">Soul Knight</option>
+</div>
+</div>
+</div> 
+
+</body>
+<script src="submit.js"></script>
+</html>

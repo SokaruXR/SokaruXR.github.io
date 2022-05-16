@@ -1,0 +1,122 @@
+body{
+    background-color: #20e9bd;
+}
+
+h1, h2, p, ul{
+    padding:10px;
+    margin:0;
+}
+
+#main{
+    width: 100%;
+    max-width:1400px;
+    margin:auto;
+    background-color: #ebf0c2;
+}
+#header{
+    background-color:#e8ddec;
+    height:240px;
+    background-image: url("amongus.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 150%;
+
+    
+}
+
+#footer{
+    background-color: gray;
+    height:50px;
+    margin:auto;
+    position:relative;
+
+}
+
+#section{
+    display:flex;
+    font-size:20px;
+    font-family: 'Space Grotesk', sans-serif;
+}
+
+#content{
+    background-color: white;
+    width:75%;
+}
+
+#side{
+    background-color: lightgray;
+    width:25%
+}
+
+#nav{
+    background-color: #9BBFAB;
+    height:40x;
+
+}
+
+#nav ul{
+ padding-top:10px;
+}
+
+#nav li{
+    display:inline;
+    padding-right:30px;
+    font-size:20px;
+}
+
+#nav a{
+    color:white;
+    font-weight:bold;
+    text-decoration: none;
+}
+#nav a:hover{
+    color:#4E2161;
+}
+
+#pic{
+    width:25%;
+    float:left;
+    margin: 0 10px 0 10px;
+}
+
+img{
+    max-width:100%;
+}
+
+@media screen and (max-width: 768px){
+ #side{
+     width:100%;
+ }
+ #section{
+     flex:none;
+     display:block;
+ }
+ #content{
+     width:100%;
+ }
+
+ #header{
+     height:100px;
+ }
+}
+
+@media screen and (max-width: 480px){
+ #side{
+     display:none;
+ }
+ #nav li{
+     font-size: 16px;
+     padding-right: 20px;
+ }
+ #pic{
+     width:50%
+ }
+ #header{
+     height:80px;
+ }
+}
+h3{
+    font-size:30px;
+}
+.description{
+    font-size:30px;
+}

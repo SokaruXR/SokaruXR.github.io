@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>LifeAfter</title>  
+<link href="LifeAfterWeb.css" rel="stylesheet" type="text/css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head> 
+<body>
+<div id="main">
+<div id="header">
+
+</div>
+<div id="nav">
+    <ul>
+    <li><a href="Index.html">Home</a>
+        <li><a href="https://play.google.com/store/apps/details?id=com.netease.mrzhna&hl=None&utm_source=apac_med&utm_medium=hasem&utm_content=Oct0121&utm_campaign=Evergreen&pcampaignid=MKT-EDR-apac-my-1003227-med-hasem-gm-Evergreen-Oct0121-Text_Search_SKWS-SKWS%7cONSEM_kwid_43700061526091949_creativeid_501659992684_device_c&gclid=CjwKCAjw7IeUBhBbEiwADhiEMW933wdCDwZcSo_rQzOxbrwmKpBvYGOcXtAgMWuc0rgWBELMahEDmhoCUgcQAvD_BwE&gclsrc=aw.ds">Download</a>
+    </li> 
+    <li><a href="http://www.lifeafter.game">Official Website</a>
+    </li>
+
+    </ul>
+    </div>
+<div id="section">
+<!-- This is the section that contains content and sidebar -->
+<!-- This is the main content area -->
+<div id="content">
+<h2>What is LifeAfter?</h2>
+<div id="pic"><img src="LifeAfterLogo.jpg" /></div>
+<p class="description">Developed by NetEase, LifeAfter is a zombie survival game where players are tasked to survive in the post-apocalyptic virus-infected world by whichever way possible. The title is the English version of the popular Chinese game "The Day After Tomorrow."</p>
+<br>
+<br><br>
+<h3>Gameplay Trailer</h3>
+<video width="1020" height="640" controls>
+    <source src="LifeAfter Official Trailer_Trim.mp4" type="video/mp4">
+    </video>
+    
+
+    </div>
+<!-- This is the sidebar -->
+<div id="side">
+    <h>Have a comment on the website?</h>
+    <h>leave a feedback!</h>
+    <br>
+    <textarea id="comment">Comment Here :D</textarea>
+    <br>
+    <input type="radio" name="rad2" onclick="displayStatus(1);">1
+                <input type="radio" name="rad2" onclick="displayStatus(2);">2
+                <input type="radio" name="rad2" onclick="displayStatus(3);">3
+                <input type="radio" name="rad2" onclick="displayStatus(4);">4
+                <input type="radio" name="rad2" onclick="displayStatus(5);">5
+    <p id="container">Rating</p>
+    <button type=button id="submit";>Submit</button>
+    <p id="container2"></p>
+    <p class="description">Quick Navigate</p>
+    <form action="/action_page.php">
+        <select onchange="this.options[this.selectedIndex].value && (window.location = this.options[this.selectedIndex].value);">
+            <option value="Index.html">Home</option>
+            <option value="FallGuysWeb.html">Fall Guys</option>
+            <option value="GenshinWeb.html">Genshin Impact</option>
+            <option value="AmongUsWeb.html">Among Us</option>
+            <option value="SoulKnightWeb.html">SoulKnight</option>
+            <option value="MobileLegendsWeb.html">Mobile Legends</option>
+        <input type="submit" value="Submit">
+      </form>
+</div>
+</div>
+</div> 
+<script src="submit.js"></script>
+</body>
+</html>
